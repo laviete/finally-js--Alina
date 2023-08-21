@@ -41,7 +41,7 @@ body {
   cursor: pointer;
   padding: 20px;
   width: 300px;
-  box-shadow: 0 2px 6px #231c48c2;
+  box-shadow: 0 2px 5px #231c48;
 }
 .actor-photo-wrapper {
   width: 120px;
@@ -75,7 +75,6 @@ body {
   color: #aaa;
 }
 img {
-  margin: 5px;
   width: 25px;
 }
 h1, h2{

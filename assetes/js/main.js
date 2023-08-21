@@ -27,7 +27,7 @@ function createActorCard({ firstName, lastName, profilePicture, contacts }) {
   const links = contacts.map((contact) => {
     const hostname = new URL(contact).hostname;
     const img = createElement("img", {
-      attributes: { src: socials.get(hostname) },
+      attributes: { src: socials.get(hostname)},
     });
     return createElement("a", {attributes: {href: contact}}, img);
   });
