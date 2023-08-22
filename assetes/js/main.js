@@ -18,7 +18,7 @@ fetch("./assetes/js/data.json")
     const errorMsg = createElement(
       "p",
       { classNames: ["error-message"] },
-      "Oops...Try later"
+      "Ooops...Try later"
     );
     root.append(errorMsg);
   });
